@@ -4,7 +4,9 @@ ruby '2.4.0'
 gem 'sinatra', '>= 2.0.2'
 gem 'sinatra-flash', '0.3.0'
 
+
 group :development, :test do
+
   gem 'cucumber', '2.0.0'
   gem 'cucumber-sinatra', '0.5.0'
   gem 'capybara', '3.1'
